@@ -1,82 +1,98 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.png",
-  "colors": {
-    "primary": "#9563FF",
-    "light": "#AE87FF",
-    "dark": "#0D001D",
-    "background": {
-      "dark": "#090014"
+    "$schema": "https://mintlify.com/schema.json",
+    "name": "Mile",
+    "logo": {
+        "dark": "/logo/dark.svg",
+        "light": "/logo/light.svg"
     },
-    "anchors": {
-      "from": "#FF7F57",
-      "to": "#9563FF"
+    "favicon": "/favicon.png",
+    "colors": {
+        "primary": "#3885FF",
+        "light": "#80BAFF",
+        "dark": "#000517",
+        "background": {
+            "dark": "#000928"
+        },
+        "anchors": {
+            "from": "#FF7F57",
+            "to": "#3885FF"
+        }
+    },
+    "topbarLinks": [
+        {
+            "name": "Support",
+            "url": "https://mile.channel.io/home"
+        }
+    ],
+    "topbarCtaButton": {
+        "name": "Product",
+        "url": "https://app.mile.im"
+    },
+    "tabs": [
+        {
+            "icon": "newspaper",
+            "name": "새로운 소식 및 공지",
+            "url": "api-reference"
+        }
+    ],
+    "anchors": [
+        {
+            "name": "마일 가이드 소개",
+            "icon": "book-open-cover",
+            "url": "https://mintlify.com/docs"
+        },
+        {
+            "name": "블로그",
+            "icon": "newspaper",
+            "url": "https://mintlify.com/blog"
+        }
+    ],
+    "navigation": [
+        {
+            "group": "마일 소개",
+            "pages": ["introduction", "product", "question"]
+        },
+        {
+            "group": "마일 시작하기",
+            "pages": [
+                "essentials/create-auth",
+                "essentials/google",
+                "essentials/slack",
+                {
+                    "group": "세부 항목 설정하기",
+                    "pages": ["essentials/setting/noshow"]
+                }
+            ]
+        },
+        {
+            "group": "마일 태블릿",
+            "pages": [
+                "tablet/start",
+                "tablet/common-book",
+                {
+                    "group": "회의 연장하기",
+                    "pages": ["tablet/meeting-extend/request-extend", "tablet/meeting-extend/book-diff-room"]
+                },
+                {
+                    "group": "태블릿 200% 활용하기",
+                    "icon": "star",
+                    "pages": ["tablet/honey-tip/button"]
+                }
+            ]
+        },
+        {
+            "group": "Endpoint Examples",
+            "pages": [
+                "api-reference/endpoint/get",
+                "api-reference/endpoint/create",
+                "api-reference/endpoint/update",
+                "api-reference/endpoint/delete"
+            ]
+        }
+    ],
+    "footerSocials": {
+        "twitter": "https://twitter.com/mintlify",
+        "github": "https://github.com/mintlify",
+        "linkedin": "https://www.linkedin.com/company/mintsearch"
     }
-  },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
-  "navigation": [
-    {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
-    },
-    {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
-    },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
-      ]
-    }
-  ],
-  "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
-  }
 }
