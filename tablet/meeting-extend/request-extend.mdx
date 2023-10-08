@@ -1,23 +1,15 @@
 ---
 title: "회의 연장 요청 보내기"
-description: "Example overview page before API endpoints"
+description: "회의 연장 요청 보내는 path 보여주기, 마찬가지로 슬랙에서 상대방도 어떻게 보여야하는지 설명되어야 함"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et eros iaculis tortor dapibus cursus. Curabitur quis sapien nec tortor dictum gravida.
+## 와야 할 내용
 
-```bash
-'Authorization': 'Token <team_token>'
-```
+-   뒤 타임에 회의가 잡혀있는 상황 부터 연장요청 보내는 패스가 보여져야함
 
-## API Tokens
+    -   여기서 최대 15분까지만 요청을 보낼 수 있다는 것을 알려줌
 
-Nullam convallis mauris at nunc consectetur, ac imperdiet leo rutrum. Maecenas cursus purus a pellentesque blandit. Pellentesque vitae lacinia libero, non mollis metus.
-
-Nam id ullamcorper urna, at rutrum enim. [Maecenas vulputate](/introduction) vehicula libero, vitae sodales augue pretium nec. Quisque a magna tempor, semper risus vel, fermentum nunc. Pellentesque fermentum interdum ex, eu convallis massa blandit sed. Aliquam bibendum ipsum vel laoreet auctor.
-
-### Permissions
-
-Etiam lobortis ut odio ut fermentum. Nunc odio velit, sollicitudin at consectetur id, tristique eget turpis. Aliquam at risus vitae dolor sodales venenatis. In hac habitasse platea dictumst.
-
-Aenean consequat diam eget mollis fermentum. [Quisque eu malesuada](/introduction) felis, non dignissim libero.
-s
+-   연장 요청을 보냈을 때 슬랙메시지가 전송되는 것을 보여줌
+    -   여기서 슬랙 연장 요청 수락시에 뜨는 화면 보여줌
+    -   기존 회의시간 종료 1분전에는 자동 거절로 판단한 다는 것을 보여줌
+-   구글 캘린더에도 해당 내용이 반영된다는 것을 알려줘야 함

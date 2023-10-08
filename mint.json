@@ -68,17 +68,19 @@
         {
             "group": "마일 태블릿",
             "pages": [
+                "tablet/index",
                 "tablet/start",
-                "tablet/common-book",
+                { "group": "회의 예약하기", "pages": ["tablet/book/google", "tablet/book/tablet", "tablet/book/next"] },
+
                 {
                     "group": "회의 연장하기",
-                    "pages": ["tablet/meeting-extend/request-extend", "tablet/meeting-extend/book-diff-room"]
+                    "pages": [
+                        "tablet/meeting-extend/extend",
+                        "tablet/meeting-extend/request-extend",
+                        "tablet/meeting-extend/book-diff-room"
+                    ]
                 },
-                {
-                    "group": "태블릿 200% 활용하기",
-                    "icon": "star",
-                    "pages": ["tablet/honey-tip/button"]
-                }
+                "tablet/noshow"
             ]
         },
         {
