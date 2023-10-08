@@ -32,19 +32,14 @@
         {
             "icon": "newspaper",
             "name": "새로운 소식 및 공지",
-            "url": "api-reference"
+            "url": "/notice/index"
         }
     ],
     "anchors": [
         {
             "name": "마일 가이드 소개",
             "icon": "book-open-cover",
-            "url": "https://mile.mintlify.app/introduction"
-        },
-        {
-            "name": "블로그",
-            "icon": "newspaper",
-            "url": "https://mintlify.com/blog"
+            "url": "introduction"
         }
     ],
     "navigation": [
@@ -82,20 +77,6 @@
                 },
                 "tablet/noshow"
             ]
-        },
-        {
-            "group": "Endpoint Examples",
-            "pages": [
-                "api-reference/endpoint/get",
-                "api-reference/endpoint/create",
-                "api-reference/endpoint/update",
-                "api-reference/endpoint/delete"
-            ]
         }
-    ],
-    "footerSocials": {
-        "twitter": "https://twitter.com/mintlify",
-        "github": "https://github.com/mintlify",
-        "linkedin": "https://www.linkedin.com/company/mintsearch"
-    }
+    ]
 }
