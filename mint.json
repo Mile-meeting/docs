@@ -39,7 +39,7 @@
         {
             "name": "마일 가이드 소개",
             "icon": "book-open-cover",
-            "url": "https://mintlify.com/docs"
+            "url": "https://mile.mintlify.app/introduction"
         },
         {
             "name": "블로그",
@@ -55,6 +55,7 @@
         {
             "group": "마일 시작하기",
             "pages": [
+                "essentials/index",
                 "essentials/create-auth",
                 "essentials/google",
                 "essentials/slack",
