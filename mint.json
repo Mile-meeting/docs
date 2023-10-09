@@ -20,12 +20,12 @@
     },
     "topbarLinks": [
         {
-            "name": "Support",
+            "name": "지원",
             "url": "https://mile.channel.io/home"
         }
     ],
     "topbarCtaButton": {
-        "name": "Product",
+        "name": "제품",
         "url": "https://app.mile.im"
     },
     "tabs": [
@@ -48,23 +48,9 @@
             "pages": ["introduction", "product", "question"]
         },
         {
-            "group": "마일 시작하기",
-            "pages": [
-                "essentials/index",
-                "essentials/create-auth",
-                "essentials/google",
-                "essentials/slack",
-                {
-                    "group": "세부 항목 설정하기",
-                    "pages": ["essentials/setting/noshow"]
-                }
-            ]
-        },
-        {
             "group": "마일 태블릿",
             "pages": [
                 "tablet/index",
-                "tablet/start",
                 { "group": "회의 예약하기", "pages": ["tablet/book/google", "tablet/book/tablet", "tablet/book/next"] },
 
                 {
@@ -75,7 +61,24 @@
                         "tablet/meeting-extend/book-diff-room"
                     ]
                 },
-                "tablet/noshow"
+                {
+                    "group": "선택 기능",
+                    "pages": ["tablet/setting/noshow"]
+                }
+            ]
+        },
+        {
+            "group": "관리자 가이드",
+            "pages": [
+                "essentials/index",
+                "essentials/create-auth",
+                "essentials/google",
+                "essentials/slack",
+                {
+                    "group": "선택 기능 설정하기",
+                    "pages": ["essentials/setting/noshow"]
+                },
+                "essentials/tablet-login"
             ]
         }
     ]
