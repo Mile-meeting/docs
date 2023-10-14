@@ -1,49 +1,37 @@
 ---
 title: "회의 연장 요청 보내기"
-description: "뒷타임 예약이 이미 잡혀있는 경우, 연장 요청 기능을 통해 회의 이용 시간을 연장할 수 있습니다."
+description: "바로 뒷타임 회의가 존재하는 경우, 연장 요청 기능을 통해 회의 이용 시간을 연장할 수 있습니다."
 ---
 
 > 관리자 페이지의 "서비스 연동" 탭에서 먼저 슬랙을 연동해야 합니다.<br />
-> 회의가 종료되기 5분 전까지만 연장 요청 버튼이 활성화됩니다.
+> 회의가 종료되기 5분 전까지만 연장 요청 기능을 사용하실 수 있습니다.
 
 <br />
 
 ## 1. 회의 이용 시간 연장 요청하기
 
-회의를 연장하고 싶은데 뒷타임 회의가 존재하는 경우, 뒷타임 회의 참석자에게 연장 요청을 보낼 수 있습니다. <br />
-최대 15분까지 연장 요청이 가능하며, 연장 요청을 받은 상대방이 수락한 경우에만 회의 이용 시간이 연장됩니다. <br />
-
-<br />
-
-<img src="/images/tablet/meeting-extend/img1.png" width="100%" height="300" />
-
-<br />
+<img src="/images/tablet/meeting-extend/request-extend/img1.png" width="100%" height="300" />
 
 타이머 안에 위치한 회의 연장하기 버튼을 선택합니다.
 
 <br />
 
-<img src="/images/tablet/meeting-extend/img2.png" width="100%" height="300" />
+<img src="/images/tablet/meeting-extend/request-extend/img2.png" width="100%" height="300" />
+
+연장 시간이 뒷타임 회의 예약 시간과 겹치는 경우, 회의 연장 버튼을 선택합니다.
+<Warning>
+    연장 요청은 뒷타임 회의 기준으로 최대 15분만 가능하며, 연장 요청을 받은 상대방이 수락한 경우에만 회의 예약 시간이 연장됩니다.
+</Warning>
 
 <br />
 
-바로 연장 가능한 시간은 활성화되며, 뒷타임 예약 시간과 겹치는 시간은 예약 불가로 표시됩니다. <br />
-연장 가능한 시간보다 더 시간이 필요한 경우, 연장 요청 버튼을 선택합니다. <br />
-단, 회의 종료까지 5분도 남지 않은 경우, 버튼이 활성화되지 않습니다.
+<img src="/images/tablet/meeting-extend/request-extend/img2.png" width="100%" height="300" />
+
+뒷타임 회의의 참석자 목록이 조회되며, 연장 양해를 구할 참석자를 선택합니다. 
 
 <br />
 
-<img src="/images/tablet/meeting-extend/img2.png" width="100%" height="300" />
-
-<br />
-
-뒷타임 회의의 참석자 목록이 조회되며, 연장 양해를 구할 참석자를 선택합니다. <br />
-
-<br />
-
-<img src="/images/tablet/meeting-extend/img2.png" width="100%" height="300" />
-
-<br />
+<img src="/images/tablet/meeting-extend/request-extend/img2.png" width="100%" height="300" />
 
 연장 및 요청 버튼을 선택합니다. <br />
 우선 연장 가능한 시간이 있다면 해당 시간만큼 우선 연장되며, 선택한 뒷타임 참석자에게 연장 요청 슬랙 메시지가 전송됩니다.
@@ -56,29 +44,23 @@ description: "뒷타임 예약이 이미 잡혀있는 경우, 연장 요청 기�
 
 <img src="/images/tablet/meeting-extend/img2.png" width="100%" height="300" />
 
-<br />
 회의 연장 요청이 수락된 경우 태블릿에 연장 요청 수락 알림창이 띄워지며, 회의실 이용 시간이 연장됩니다.
 
 <br />
 
-<img src="/images/tablet/meeting-extend/img2.png" width="100%" height="300" />
+<img src="/images/tablet/meeting-extend/request-extend/img2.png" width="100%" height="300" />
 
 <br />
 
-<br />
-
-<img src="/images/tablet/meeting-extend/img2.png" width="100%" height="300" />
+<img src="/images/tablet/meeting-extend/request-extend/img2.png" width="100%" height="300" />
 
 <br />
 구글 캘린더에도 변경된 예약 시간이 반영됩니다.
 
 ## 3. 회의 연장 요청이 거절된 경우
 
-<br />
+<img src="/images/tablet/meeting-extend/request-extend/img2.png" width="100%" height="300" />
 
-<img src="/images/tablet/meeting-extend/img2.png" width="100%" height="300" />
-
-<br />
 회의 연장 요청을 거절된 경우 태블릿에 연장 요청 거절 알림창이 띄워지며, 회의실 이용 시간이 연장되지 않습니다. <br />
 
 - 회의 종료 시간 1분 전까지 미응답인 경우에도 거절로 처리됩니다.
