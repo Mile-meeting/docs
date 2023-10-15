@@ -58,7 +58,8 @@
                     "pages": [
                         "tablet/meeting-extend/extend",
                         "tablet/meeting-extend/request-extend",
-                        "tablet/meeting-extend/book-diff-room"
+                        "tablet/meeting-extend/book-diff-room",
+                        "tablet/meeting-extend/receive-extend-message"
                     ]
                 },
                 "tablet/end",
