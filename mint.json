@@ -32,7 +32,7 @@
         {
             "icon": "newspaper",
             "name": "새로운 소식 및 공지",
-            "url": "/notice/index"
+            "url": "notice"
         }
     ],
     "anchors": [
@@ -81,6 +81,10 @@
                 },
                 "essentials/tablet-login"
             ]
+        },
+        {
+            "group": "새로운 소식 및 공지",
+            "pages": ["notice/update", "notice/notice"]
         }
     ]
 }
