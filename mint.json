@@ -79,7 +79,8 @@
                     "group": "세부 기능 설정하기",
                     "pages": ["essentials/setting/update-code", "essentials/setting/noshow"]
                 },
-                "essentials/tablet-login"
+                "essentials/tablet-login",
+                "essentials/tablet-logout"
             ]
         },
         {
