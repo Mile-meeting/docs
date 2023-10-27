@@ -86,12 +86,12 @@
         {
             "group": "새로운 소식 및 공지",
             "pages": [
-                "notice/update", 
+                "notice/notice", 
                 {
                     "group": "업데이트",
                     "pages": [
-                        "notice/notice",
-                        "notice/notice/2023.10.26"
+                        "notice/update",
+                        "notice/update/2023.10.26"
                     ]
                 }
             ]
