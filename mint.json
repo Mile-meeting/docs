@@ -84,15 +84,22 @@
             ]
         },
         {
+            "group": "애널리틱스",
+            "pages": [
+                "analytics/book-report",
+                {
+                    "group": "임직원 관계망 데이터 보기",
+                    "pages": ["analytics/network/table", "analytics/network/graph"]
+                }
+            ]
+        },
+        {
             "group": "새로운 소식 및 공지",
             "pages": [
-                "notice/notice", 
+                "notice/notice",
                 {
                     "group": "업데이트",
-                    "pages": [
-                        "notice/update",
-                        "notice/update/2023.10.26"
-                    ]
+                    "pages": ["notice/update", "notice/update/2023.10.26"]
                 }
             ]
         }
