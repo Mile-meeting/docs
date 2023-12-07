@@ -70,6 +70,19 @@
             ]
         },
         {
+            "group": "마일 Visitors",
+            "pages": [
+                {
+                    "group": "방문자 등록링크 생성",
+                    "pages": ["visitors/register-link/schedule", "visitors/register-link/register", "visitors/register-link/create-link"]
+                },
+                {
+                    "group": "[방문 당일] 방문객의 담당자 호출하기",
+                    "pages": ["visitors/call-host/register-visit", "visitors/call-host/day-visit"]
+                }
+            ]
+        },
+        {
             "group": "관리자 가이드",
             "pages": [
                 "essentials/create-auth",
