@@ -48,7 +48,7 @@
             "pages": ["introduction", "product", "question"]
         },
         {
-            "group": "마일 태블릿",
+            "group": "마일 Meeting",
             "pages": [
                 "tablet/show",
                 { "group": "회의 예약하기", "pages": ["tablet/book/tablet", "tablet/book/next"] },
@@ -65,7 +65,7 @@
                 "tablet/end",
                 {
                     "group": "세부 기능 설정별 사용 방법",
-                    "pages": ["tablet/setting/noshow"]
+                    "pages": ["tablet/setting/noshow", "tablet/setting/complain"]
                 }
             ]
         },
