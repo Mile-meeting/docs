@@ -112,7 +112,7 @@
                 "notice/notice",
                 {
                     "group": "업데이트",
-                    "pages": ["notice/update", "notice/update/2023.10.26"]
+                    "pages": ["notice/update", "notice/update/2023.10.26", "notice/update/2023.12.06"]
                 }
             ]
         }
