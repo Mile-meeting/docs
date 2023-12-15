@@ -48,7 +48,7 @@
             "pages": ["introduction", "product", "question"]
         },
         {
-            "group": "마일 Meeting",
+            "group": "Mile Meeting",
             "pages": [
                 "tablet/show",
                 { "group": "회의 예약하기", "pages": ["tablet/book/tablet", "tablet/book/next"] },
@@ -70,7 +70,7 @@
             ]
         },
         {
-            "group": "마일 Visitors",
+            "group": "Mile Visitors",
             "pages": [
                 {
                     "group": "방문자 등록링크 생성",
@@ -80,6 +80,17 @@
                     "group": "[방문 당일] 방문객의 담당자 호출하기",
                     "pages": ["visitors/call-host/register-visit", "visitors/call-host/day-visit"]
                 }
+            ]
+        },
+        {
+            "group": "Mile Analytics",
+            "pages": [
+                "analytics/book-report",
+                {
+                    "group": "임직원 관계망 데이터 보기",
+                    "pages": ["analytics/network/table", "analytics/network/graph"]
+                },
+                "analytics/visitor-report"
             ]
         },
         {
@@ -96,16 +107,7 @@
                 "essentials/tablet-logout"
             ]
         },
-        {
-            "group": "애널리틱스",
-            "pages": [
-                "analytics/book-report",
-                {
-                    "group": "임직원 관계망 데이터 보기",
-                    "pages": ["analytics/network/table", "analytics/network/graph"]
-                }
-            ]
-        },
+
         {
             "group": "새로운 소식 및 공지",
             "pages": [
