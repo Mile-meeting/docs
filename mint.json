@@ -97,14 +97,10 @@
             "group": "관리자 가이드",
             "pages": [
                 "essentials/create-auth",
-                "essentials/google",
-                "essentials/slack",
                 {
-                    "group": "세부 기능 설정하기",
-                    "pages": ["essentials/setting/update-code", "essentials/setting/noshow"]
-                },
-                "essentials/tablet-login",
-                "essentials/tablet-logout"
+                    "group": "계정 관리하기",
+                    "pages": ["essentials/manage-account/modify-info", "essentials/manage-account/update-code"]
+                }
             ]
         },
 
