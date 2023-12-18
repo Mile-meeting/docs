@@ -98,7 +98,7 @@
             "pages": [
                 "essentials/create-auth",
                 {
-                    "group": "계정 관리하기",
+                    "group": "기업 정보 관리하기",
                     "pages": ["essentials/manage-account/modify-info", "essentials/manage-account/update-code"]
                 }
             ]
