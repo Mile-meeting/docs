@@ -101,7 +101,19 @@
                     "group": "기업 정보 관리하기",
                     "pages": ["essentials/manage-account/modify-info", "essentials/manage-account/update-code"]
                 },
-                "essentials/member-permission"
+                "essentials/member-permission",
+                {
+                    "group": "연동하기",
+                    "pages": ["essentials/google", "essentials/slack"]
+                },
+                {
+                    "group": "[Meeting] 세부 기능 설정",
+                    "pages": ["essentials/meeting/tablet-login", "essentials/meeting/tablet-logout", "essentials/meeting/noshow"]
+                },
+                {
+                    "group": "[Visitors] 세부 기능 설정",
+                    "pages": ["essentials/google", "essentials/slack"]
+                }
             ]
         },
 
