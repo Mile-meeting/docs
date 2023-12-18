@@ -109,10 +109,6 @@
                 {
                     "group": "[Meeting] 세부 기능 설정",
                     "pages": ["essentials/meeting/tablet-login", "essentials/meeting/tablet-logout", "essentials/meeting/noshow"]
-                },
-                {
-                    "group": "[Visitors] 세부 기능 설정",
-                    "pages": ["essentials/google", "essentials/slack"]
                 }
             ]
         },
