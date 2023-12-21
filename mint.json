@@ -115,7 +115,8 @@
                     "pages": [
                         "essentials/visitors/thema-customizing",
                         "essentials/visitors/doorbell-setting",
-                        "essentials/visitors/visit-purpose-setting"
+                        "essentials/visitors/visit-purpose-setting",
+                        "essentials/visitors/visit-slack-setting"
                     ]
                 }
             ]
