@@ -85,12 +85,14 @@
         {
             "group": "Mile Analytics",
             "pages": [
-                "analytics/book-report",
                 {
-                    "group": "임직원 관계망 데이터 보기",
-                    "pages": ["analytics/network/table", "analytics/network/graph"]
+                    "group": "Mile Meeting",
+                    "pages": ["analytics/mile-meeting/book-report", "analytics/mile-meeting/table", "analytics/mile-meeting/graph"]
                 },
-                "analytics/visitor-report"
+                {
+                    "group": "Mile Visitors",
+                    "pages": ["analytics/mile-visitors/visitor-report"]
+                }
             ]
         },
         {
