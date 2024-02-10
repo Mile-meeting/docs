@@ -73,8 +73,12 @@
             "group": "Mile Visitors",
             "pages": [
                 {
-                    "group": "방문자 등록링크 생성",
-                    "pages": ["visitors/register-link/schedule", "visitors/register-link/register", "visitors/register-link/create-link"]
+                    "group": "방문 일정 관리하기",
+                    "pages": [
+                        "visitors/visit-schedule/show-visit-list",
+                        "visitors/visit-schedule/visit-request-accept",
+                        "visitors/visit-visit-fix-delete"
+                    ]
                 },
                 {
                     "group": "[방문 당일] 방문객의 담당자 호출하기",
