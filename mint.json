@@ -96,7 +96,7 @@
                 },
                 {
                     "group": "Mile Visitors",
-                    "pages": ["analytics/mile-visitors/visitor-report"]
+                    "pages": ["analytics/mile-visitors/visitor-dashboard", "analytics/mile-visitors/visitor-report"]
                 }
             ]
         },
