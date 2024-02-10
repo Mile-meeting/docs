@@ -77,7 +77,7 @@
                     "pages": [
                         "visitors/visit-schedule/show-visit-list",
                         "visitors/visit-schedule/visit-request-accept",
-                        "visitors/visit-visit-fix-delete"
+                        "visitors/visit-schedule/visit-fix-delete"
                     ]
                 },
                 {
