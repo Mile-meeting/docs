@@ -81,6 +81,14 @@
                     ]
                 },
                 {
+                    "group": "사전 방문자 등록",
+                    "pages": [
+                        "visitors/visitor-register/register-with-visitor",
+                        "visitors/visitor-register/register-with-employee",
+                        "visitors/visitor-register/register-visitors-with-csv"
+                    ]
+                },
+                {
                     "group": "[방문 당일] 방문객의 담당자 호출하기",
                     "pages": ["visitors/call-host/register-visit", "visitors/call-host/day-visit"]
                 }
