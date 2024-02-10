@@ -87,7 +87,12 @@
             "pages": [
                 {
                     "group": "Mile Meeting",
-                    "pages": ["analytics/mile-meeting/book-report", "analytics/mile-meeting/table", "analytics/mile-meeting/graph"]
+                    "pages": [
+                        "analytics/mile-meeting/meeting-dashboard",
+                        "analytics/mile-meeting/book-report",
+                        "analytics/mile-meeting/table",
+                        "analytics/mile-meeting/graph"
+                    ]
                 },
                 {
                     "group": "Mile Visitors",
