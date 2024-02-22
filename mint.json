@@ -116,6 +116,7 @@
             "group": "관리자 가이드",
             "pages": [
                 "essentials/create-auth",
+                "essentials/edit-profile",
                 {
                     "group": "기업 정보 관리하기",
                     "pages": ["essentials/manage-account/modify-info", "essentials/manage-account/update-code"]
