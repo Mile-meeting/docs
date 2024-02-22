@@ -140,6 +140,10 @@
                         "essentials/visitors/visit-slack-setting",
                         "essentials/visitors/방문-안내-메세지-설정하기"
                     ]
+                },
+                {
+                    "group": "[공통]",
+                    "pages": ["essentials/common/link-private-slack"]
                 }
             ]
         },
