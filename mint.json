@@ -137,7 +137,8 @@
                         "essentials/meeting/tablet-login",
                         "essentials/meeting/tablet-logout",
                         "essentials/meeting/noshow",
-                        "essentials/meeting/setting-complain-list"
+                        "essentials/meeting/setting-complain-list",
+                        "essentials/meeting/setting-complain-host"
                     ]
                 },
                 {
