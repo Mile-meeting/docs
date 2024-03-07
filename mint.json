@@ -128,6 +128,10 @@
                     "pages": ["essentials/google", "essentials/slack"]
                 },
                 {
+                    "group": "앱 업데이트하기",
+                    "pages": ["essentials/update/update-meeting", "essentials/update/update-visitors"]
+                },
+                {
                     "group": "[Meeting] 세부 기능 설정",
                     "pages": ["essentials/meeting/tablet-login", "essentials/meeting/tablet-logout", "essentials/meeting/noshow"]
                 },
