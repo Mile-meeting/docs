@@ -138,7 +138,8 @@
                         "essentials/meeting/tablet-logout",
                         "essentials/meeting/noshow",
                         "essentials/meeting/setting-complain-list",
-                        "essentials/meeting/setting-complain-host"
+                        "essentials/meeting/setting-complain-host",
+                        "essentials/meeting/conduct-complain"
                     ]
                 },
                 {
@@ -155,7 +156,7 @@
                 },
                 {
                     "group": "[공통]",
-                    "pages": ["essentials/common/link-private-slack"]
+                    "pages": ["essentials/common/link-private-slack", "essentials/common/link-slack-channel"]
                 }
             ]
         },
