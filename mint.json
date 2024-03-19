@@ -102,8 +102,7 @@
                     "pages": [
                         "analytics/mile-meeting/meeting-dashboard",
                         "analytics/mile-meeting/book-report",
-                        "analytics/mile-meeting/table",
-                        "analytics/mile-meeting/graph"
+                        "analytics/mile-meeting/relationship"
                     ]
                 },
                 {
