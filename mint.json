@@ -65,7 +65,7 @@
                 "tablet/end",
                 {
                     "group": "세부 기능 설정별 사용 방법",
-                    "pages": ["tablet/setting/noshow", "tablet/setting/complain"]
+                    "pages": ["tablet/setting/noshow", "tablet/setting/complain", "tablet/setting/timer-on-off"]
                 }
             ]
         },
