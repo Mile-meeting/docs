@@ -149,7 +149,6 @@
                         "essentials/visitors/doorbell-setting",
                         "essentials/visitors/registered-visit-purpose-setting",
                         "essentials/visitors/visit-purpose-setting",
-                        "essentials/visitors/visit-slack-setting",
                         "essentials/visitors/방문-안내-메세지-설정하기"
                     ]
                 },
