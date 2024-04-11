@@ -136,6 +136,7 @@
                         "essentials/meeting/tablet-login",
                         "essentials/meeting/tablet-logout",
                         "essentials/meeting/check-in-setting",
+                        "essentials/meeting/check-out-setting",
                         "essentials/meeting/setting-complain-list",
                         "essentials/meeting/setting-complain-host",
                         "essentials/meeting/conduct-complain"
