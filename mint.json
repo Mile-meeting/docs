@@ -62,10 +62,9 @@
                         "tablet/meeting-extend/receive-extend-message"
                     ]
                 },
-                "tablet/end",
                 {
                     "group": "세부 기능 설정별 사용 방법",
-                    "pages": ["tablet/setting/noshow", "tablet/setting/complain", "tablet/setting/timer-on-off"]
+                    "pages": ["tablet/setting/complain", "tablet/setting/timer-on-off"]
                 }
             ]
         },
@@ -91,7 +90,8 @@
                 {
                     "group": "[방문 당일] 방문객의 담당자 호출하기",
                     "pages": ["visitors/call-host/register-visit", "visitors/call-host/day-visit"]
-                }
+                },
+                "visitors/link-google-calendar"
             ]
         },
         {
@@ -116,7 +116,7 @@
             "pages": [
                 "essentials/create-auth",
                 "essentials/edit-profile",
-                "essentials/link-private-calendar",
+
                 {
                     "group": "기업 정보 관리하기",
                     "pages": ["essentials/manage-account/modify-info", "essentials/manage-account/update-code"]
