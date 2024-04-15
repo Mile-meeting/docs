@@ -52,7 +52,7 @@
             "pages": [
                 "tablet/show",
                 { "group": "회의 예약하기", "pages": ["tablet/book/tablet", "tablet/book/next"] },
-
+                "tablet/start",
                 {
                     "group": "회의 연장하기",
                     "pages": [
