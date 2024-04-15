@@ -53,6 +53,7 @@
                 "tablet/show",
                 { "group": "회의 예약하기", "pages": ["tablet/book/tablet", "tablet/book/next"] },
                 "tablet/start",
+                "tablet/end",
                 {
                     "group": "회의 연장하기",
                     "pages": [
