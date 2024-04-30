@@ -91,6 +91,10 @@
                     ]
                 },
                 {
+                    "group": "태블릿 프로세스 확인하기",
+                    "pages": ["visitors/tablet-process/activate-checkin"]
+                },
+                {
                     "group": "[방문 당일] 방문객의 담당자 호출하기",
                     "pages": ["visitors/call-host/register-visit", "visitors/call-host/day-visit"]
                 },
