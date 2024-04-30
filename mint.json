@@ -78,6 +78,7 @@
                         "visitors/visit-schedule/show-visit-list",
                         "visitors/visit-schedule/visit-request-accept",
                         "visitors/visit-schedule/visit-fix-delete",
+                        "visitors/visit-schedule/visitor-status",
                         "visitors/visit-schedule/re-send-visit-message"
                     ]
                 },
