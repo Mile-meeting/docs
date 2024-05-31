@@ -98,7 +98,11 @@
                     "group": "[방문 당일] 방문객의 담당자 호출하기",
                     "pages": ["visitors/call-host/register-visit", "visitors/call-host/day-visit"]
                 },
-                "visitors/link-google-calendar"
+                "visitors/link-google-calendar",
+                {
+                    "group": "메신저 연동",
+                    "pages": ["visitors/link-messenger/google-chat"]
+                }
             ]
         },
         {
@@ -131,7 +135,11 @@
                 "essentials/member-permission",
                 {
                     "group": "연동하기",
-                    "pages": ["essentials/google", "essentials/slack"]
+                    "pages": [
+                        "essentials/link/google", 
+                        "essentials/link/slack",
+                        "essentials/link/google-chat"
+                    ]
                 },
                 {
                     "group": "앱 업데이트하기",
@@ -163,7 +171,11 @@
                 },
                 {
                     "group": "[공통]",
-                    "pages": ["essentials/common/link-private-slack", "essentials/common/link-slack-channel"]
+                    "pages": [
+                        "essentials/common/link-private-slack", 
+                        "essentials/common/link-slack-channel",
+                        "essentials/common/link-google-chat-space"
+                    ]
                 }
             ]
         },
