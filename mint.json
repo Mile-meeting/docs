@@ -135,11 +135,7 @@
                 "essentials/member-permission",
                 {
                     "group": "연동하기",
-                    "pages": [
-                        "essentials/link/google", 
-                        "essentials/link/slack",
-                        "essentials/link/google-chat"
-                    ]
+                    "pages": ["essentials/link/google", "essentials/link/slack", "essentials/link/google-chat"]
                 },
                 {
                     "group": "앱 업데이트하기",
@@ -152,6 +148,7 @@
                         "essentials/meeting/tablet-logout",
                         "essentials/meeting/check-in-setting",
                         "essentials/meeting/check-out-setting",
+                        "essentials/meeting/finish-alert-setting",
                         "essentials/meeting/setting-complain-list",
                         "essentials/meeting/setting-complain-host",
                         "essentials/meeting/conduct-complain"
@@ -172,7 +169,7 @@
                 {
                     "group": "[공통]",
                     "pages": [
-                        "essentials/common/link-private-slack", 
+                        "essentials/common/link-private-slack",
                         "essentials/common/link-slack-channel",
                         "essentials/common/link-google-chat-space"
                     ]
