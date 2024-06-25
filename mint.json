@@ -135,7 +135,7 @@
                 "essentials/member-permission",
                 {
                     "group": "연동하기",
-                    "pages": ["essentials/link/google", "essentials/link/slack", "essentials/link/google-chat"]
+                    "pages": ["essentials/link/google", "essentials/link/private-meeting", "essentials/link/slack", "essentials/link/google-chat"]
                 },
                 {
                     "group": "앱 업데이트하기",
