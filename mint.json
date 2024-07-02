@@ -1,206 +1,233 @@
 {
-    "$schema": "https://mintlify.com/schema.json",
-    "name": "Mile",
-    "logo": {
-        "dark": "/logo/dark.svg",
-        "light": "/logo/light.svg"
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Mile",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#3885FF",
+    "light": "#80BAFF",
+    "dark": "#000517",
+    "background": {
+      "dark": "#000928"
     },
-    "favicon": "/favicon.png",
-    "colors": {
-        "primary": "#3885FF",
-        "light": "#80BAFF",
-        "dark": "#000517",
-        "background": {
-            "dark": "#000928"
-        },
-        "anchors": {
-            "from": "#FF7F57",
-            "to": "#3885FF"
-        }
+    "anchors": {
+      "from": "#FF7F57",
+      "to": "#3885FF"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "지원",
+      "url": "https://mile.channel.io/home"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "제품",
+    "url": "https://app.mile.im"
+  },
+  "tabs": [
+    {
+      "icon": "newspaper",
+      "name": "새로운 소식 및 공지",
+      "url": "notice"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "마일 가이드 소개",
+      "icon": "book-open-cover",
+      "url": "introduction"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "마일 소개",
+      "pages": ["introduction", "product", "question"]
     },
-    "topbarLinks": [
+    {
+      "group": "Mile Meeting",
+      "pages": [
+        "tablet/show",
         {
-            "name": "지원",
-            "url": "https://mile.channel.io/home"
+          "group": "회의 예약하기",
+          "pages": ["tablet/book/tablet", "tablet/book/next"]
+        },
+        "tablet/start",
+        "tablet/end",
+        {
+          "group": "회의 연장하기",
+          "pages": [
+            "tablet/meeting-extend/extend",
+            "tablet/meeting-extend/request-extend",
+            "tablet/meeting-extend/book-diff-room",
+            "tablet/meeting-extend/receive-extend-message"
+          ]
+        },
+        {
+          "group": "세부 기능 설정별 사용 방법",
+          "pages": ["tablet/setting/complain", "tablet/setting/timer-on-off"]
         }
-    ],
-    "topbarCtaButton": {
-        "name": "제품",
-        "url": "https://app.mile.im"
+      ]
     },
-    "tabs": [
+    {
+      "group": "Mile Visitors",
+      "pages": [
         {
-            "icon": "newspaper",
-            "name": "새로운 소식 및 공지",
-            "url": "notice"
+          "group": "방문 일정 관리하기",
+          "pages": [
+            "visitors/visit-schedule/show-visit-list",
+            "visitors/visit-schedule/visit-request-accept",
+            "visitors/visit-schedule/visit-fix-delete",
+            "visitors/visit-schedule/visitor-status",
+            "visitors/visit-schedule/re-send-visit-message"
+          ]
+        },
+        {
+          "group": "사전 방문자 등록",
+          "pages": [
+            "visitors/visitor-register/register-with-visitor",
+            "visitors/visitor-register/register-with-employee",
+            "visitors/visitor-register/register-visitors-with-csv"
+          ]
+        },
+        {
+          "group": "태블릿 프로세스 확인하기",
+          "pages": [
+            "visitors/tablet-process/activate-checkin",
+            "visitors/tablet-process/disabled-checkin"
+          ]
+        },
+        {
+          "group": "[방문 당일] 방문객의 담당자 호출하기",
+          "pages": [
+            "visitors/call-host/register-visit",
+            "visitors/call-host/day-visit"
+          ]
+        },
+        "visitors/link-google-calendar",
+        {
+          "group": "메신저 연동",
+          "pages": ["visitors/link-messenger/google-chat"]
         }
-    ],
-    "anchors": [
+      ]
+    },
+    {
+      "group": "Mile Analytics",
+      "pages": [
         {
-            "name": "마일 가이드 소개",
-            "icon": "book-open-cover",
-            "url": "introduction"
+          "group": "Mile Meeting",
+          "pages": [
+            "analytics/mile-meeting/meeting-dashboard",
+            "analytics/mile-meeting/book-report",
+            "analytics/mile-meeting/relationship"
+          ]
+        },
+        {
+          "group": "Mile Visitors",
+          "pages": [
+            "analytics/mile-visitors/visitor-dashboard",
+            "analytics/mile-visitors/visitor-report"
+          ]
         }
-    ],
-    "navigation": [
-        {
-            "group": "마일 소개",
-            "pages": ["introduction", "product", "question"]
-        },
-        {
-            "group": "Mile Meeting",
-            "pages": [
-                "tablet/show",
-                { "group": "회의 예약하기", "pages": ["tablet/book/tablet", "tablet/book/next"] },
-                "tablet/start",
-                "tablet/end",
-                {
-                    "group": "회의 연장하기",
-                    "pages": [
-                        "tablet/meeting-extend/extend",
-                        "tablet/meeting-extend/request-extend",
-                        "tablet/meeting-extend/book-diff-room",
-                        "tablet/meeting-extend/receive-extend-message"
-                    ]
-                },
-                {
-                    "group": "세부 기능 설정별 사용 방법",
-                    "pages": ["tablet/setting/complain", "tablet/setting/timer-on-off"]
-                }
-            ]
-        },
-        {
-            "group": "Mile Visitors",
-            "pages": [
-                {
-                    "group": "방문 일정 관리하기",
-                    "pages": [
-                        "visitors/visit-schedule/show-visit-list",
-                        "visitors/visit-schedule/visit-request-accept",
-                        "visitors/visit-schedule/visit-fix-delete",
-                        "visitors/visit-schedule/visitor-status",
-                        "visitors/visit-schedule/re-send-visit-message"
-                    ]
-                },
-                {
-                    "group": "사전 방문자 등록",
-                    "pages": [
-                        "visitors/visitor-register/register-with-visitor",
-                        "visitors/visitor-register/register-with-employee",
-                        "visitors/visitor-register/register-visitors-with-csv"
-                    ]
-                },
-                {
-                    "group": "태블릿 프로세스 확인하기",
-                    "pages": ["visitors/tablet-process/activate-checkin", "visitors/tablet-process/disabled-checkin"]
-                },
-                {
-                    "group": "[방문 당일] 방문객의 담당자 호출하기",
-                    "pages": ["visitors/call-host/register-visit", "visitors/call-host/day-visit"]
-                },
-                "visitors/link-google-calendar",
-                {
-                    "group": "메신저 연동",
-                    "pages": ["visitors/link-messenger/google-chat"]
-                }
-            ]
-        },
-        {
-            "group": "Mile Analytics",
-            "pages": [
-                {
-                    "group": "Mile Meeting",
-                    "pages": [
-                        "analytics/mile-meeting/meeting-dashboard",
-                        "analytics/mile-meeting/book-report",
-                        "analytics/mile-meeting/relationship"
-                    ]
-                },
-                {
-                    "group": "Mile Visitors",
-                    "pages": ["analytics/mile-visitors/visitor-dashboard", "analytics/mile-visitors/visitor-report"]
-                }
-            ]
-        },
-        {
-            "group": "관리자 가이드",
-            "pages": [
-                "essentials/create-auth",
-                "essentials/edit-profile",
-
-                {
-                    "group": "기업 정보 관리하기",
-                    "pages": ["essentials/manage-account/modify-info", "essentials/manage-account/update-code"]
-                },
-                "essentials/member-permission",
-                {
-                    "group": "연동하기",
-                    "pages": ["essentials/link/google", "essentials/link/private-meeting", "essentials/link/slack", "essentials/link/google-chat"]
-                },
-                {
-                    "group": "앱 업데이트하기",
-                    "pages": ["essentials/update/update-meeting", "essentials/update/update-visitors"]
-                },
-                {
-                    "group": "[Meeting] 세부 기능 설정",
-                    "pages": [
-                        "essentials/meeting/tablet-login",
-                        "essentials/meeting/tablet-logout",
-                        "essentials/meeting/check-in-setting",
-                        "essentials/meeting/check-out-setting",
-                        "essentials/meeting/finish-alert-setting",
-                        "essentials/meeting/setting-complain-list",
-                        "essentials/meeting/setting-complain-host",
-                        "essentials/meeting/conduct-complain"
-                    ]
-                },
-                {
-                    "group": "[Visitors] 세부 기능 설정",
-                    "pages": [
-                        "essentials/visitors/checkin-setting",
-                        "essentials/visitors/edit-device-name",
-                        "essentials/visitors/thema-customizing",
-                        "essentials/visitors/doorbell-setting",
-                        "essentials/visitors/visit-purpose-setting",
-                        "essentials/visitors/registered-visit-purpose-setting",
-                        "essentials/visitors/방문-안내-메세지-설정하기"
-                    ]
-                },
-                {
-                    "group": "[공통]",
-                    "pages": [
-                        "essentials/common/link-private-slack",
-                        "essentials/common/link-slack-channel",
-                        "essentials/common/link-google-chat-space"
-                    ]
-                }
-            ]
-        },
+      ]
+    },
+    {
+      "group": "관리자 가이드",
+      "pages": [
+        "essentials/create-auth",
+        "essentials/edit-profile",
 
         {
-            "group": "새로운 소식 및 공지",
-            "pages": [
-                "notice/notice",
-                {
-                    "group": "업데이트",
-                    "pages": [
-                        "notice/update",
-                        "notice/update/2023.10.26",
-                        "notice/update/2023.10.27",
-                        "notice/update/2023.12.01",
-                        "notice/update/2023.12.06",
-                        "notice/update/2023.12.22",
-                        "notice/update/2024.01.21",
-                        "notice/update/2024.02.04",
-                        "notice/update/2024.02.18",
-                        "notice/update/2024.03.01",
-                        "notice/update/2024.03.17",
-                        "notice/update/2024.03.31",
-                        "notice/update/2024.04.14",
-                        "notice/update/2024.04.29"
-                    ]
-                }
-            ]
+          "group": "기업 정보 관리하기",
+          "pages": [
+            "essentials/manage-account/modify-info",
+            "essentials/manage-account/update-code"
+          ]
+        },
+        "essentials/member-permission",
+        {
+          "group": "연동하기",
+          "pages": [
+            "essentials/link/google",
+            "essentials/link/private-meeting",
+            "essentials/link/slack",
+            "essentials/link/google-chat"
+          ]
+        },
+        {
+          "group": "앱 업데이트하기",
+          "pages": [
+            "essentials/update/update-meeting",
+            "essentials/update/update-visitors"
+          ]
+        },
+        {
+          "group": "[Meeting] 세부 기능 설정",
+          "pages": [
+            "essentials/meeting/tablet-login",
+            "essentials/meeting/tablet-logout",
+            "essentials/meeting/check-in-setting",
+            "essentials/meeting/check-out-setting",
+            "essentials/meeting/finish-alert-setting",
+            "essentials/meeting/setting-complain-list",
+            "essentials/meeting/setting-complain-host",
+            "essentials/meeting/conduct-complain"
+          ]
+        },
+        {
+          "group": "[Visitors] 세부 기능 설정",
+          "pages": [
+            "essentials/visitors/checkin-setting",
+            "essentials/visitors/edit-device-name",
+            "essentials/visitors/thema-customizing",
+            "essentials/visitors/doorbell-setting",
+            "essentials/visitors/visit-purpose-setting",
+            "essentials/visitors/registered-visit-purpose-setting",
+            "essentials/visitors/방문-안내-메세지-설정하기"
+          ]
+        },
+        {
+          "group": "[공통]",
+          "pages": [
+            "essentials/common/link-private-slack",
+            "essentials/common/link-slack-channel",
+            "essentials/common/link-google-chat-space"
+          ]
         }
-    ]
+      ]
+    },
+
+    {
+      "group": "새로운 소식 및 공지",
+      "pages": [
+        "notice/notice",
+        {
+          "group": "업데이트",
+          "pages": [
+            "notice/update",
+            "notice/update/2023.10.26",
+            "notice/update/2023.10.27",
+            "notice/update/2023.12.01",
+            "notice/update/2023.12.06",
+            "notice/update/2023.12.22",
+            "notice/update/2024.01.21",
+            "notice/update/2024.02.04",
+            "notice/update/2024.02.18",
+            "notice/update/2024.03.01",
+            "notice/update/2024.03.17",
+            "notice/update/2024.03.31",
+            "notice/update/2024.04.14",
+            "notice/update/2024.04.29",
+            "notice/update/2024.05.30",
+            "notice/update/2024.06.09",
+            "notice/update/2024.06.25",
+            "notice/update/2024.06.28"
+          ]
+        }
+      ]
+    }
+  ]
 }
