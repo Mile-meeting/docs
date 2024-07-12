@@ -69,6 +69,10 @@
         {
           "group": "세부 기능 설정별 사용 방법",
           "pages": ["tablet/setting/complain", "tablet/setting/timer-on-off"]
+        },
+        {
+          "group": "FAQ - 자주 묻는 질문",
+          "pages": ["tablet/faq/mic-permission"]
         }
       ]
     },
