@@ -173,6 +173,7 @@
           "pages": [
             "essentials/meeting/tablet-login",
             "essentials/meeting/tablet-logout",
+            "essentials/meeting/tablet-voice-sensitivity",
             "essentials/meeting/check-in-setting",
             "essentials/meeting/check-out-setting",
             "essentials/meeting/finish-alert-setting",
