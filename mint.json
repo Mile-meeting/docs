@@ -99,17 +99,11 @@
         },
         {
           "group": "태블릿 프로세스 확인하기",
-          "pages": [
-            "visitors/tablet-process/activate-checkin",
-            "visitors/tablet-process/disabled-checkin"
-          ]
+          "pages": ["visitors/tablet-process/activate-checkin", "visitors/tablet-process/disabled-checkin"]
         },
         {
           "group": "[방문 당일] 방문객의 담당자 호출하기",
-          "pages": [
-            "visitors/call-host/register-visit",
-            "visitors/call-host/day-visit"
-          ]
+          "pages": ["visitors/call-host/register-visit", "visitors/call-host/day-visit"]
         },
         "visitors/link-google-calendar",
         {
@@ -131,10 +125,7 @@
         },
         {
           "group": "Mile Visitors",
-          "pages": [
-            "analytics/mile-visitors/visitor-dashboard",
-            "analytics/mile-visitors/visitor-report"
-          ]
+          "pages": ["analytics/mile-visitors/visitor-dashboard", "analytics/mile-visitors/visitor-report"]
         }
       ]
     },
@@ -146,10 +137,7 @@
 
         {
           "group": "기업 정보 관리하기",
-          "pages": [
-            "essentials/manage-account/modify-info",
-            "essentials/manage-account/update-code"
-          ]
+          "pages": ["essentials/manage-account/modify-info", "essentials/manage-account/update-code"]
         },
         "essentials/member-permission",
         {
@@ -163,10 +151,7 @@
         },
         {
           "group": "앱 업데이트하기",
-          "pages": [
-            "essentials/update/update-meeting",
-            "essentials/update/update-visitors"
-          ]
+          "pages": ["essentials/update/update-meeting", "essentials/update/update-visitors"]
         },
         {
           "group": "[Meeting] 세부 기능 설정",
@@ -229,7 +214,8 @@
             "notice/update/2024.05.30",
             "notice/update/2024.06.09",
             "notice/update/2024.06.25",
-            "notice/update/2024.06.28"
+            "notice/update/2024.06.28",
+            "notice/update/2024.07.14"
           ]
         }
       ]
